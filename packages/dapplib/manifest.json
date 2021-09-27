@@ -1,0 +1,36 @@
+{
+    "repository": {},
+    "__outputFolder": null,
+    "blocks": [
+        {
+            "category": "access_control",
+            "name": "core-administrator_role",
+            "parameters": {}
+        },
+        {
+            "category": "access_control",
+            "name": "core-contract_access",
+            "parameters": {}
+        },
+        {
+            "category": "asset_value_tracking",
+            "name": "core-token",
+            "parameters": {
+                "symbol": "SAN",
+                "decimals": "7",
+                "supply": "26000000",
+                "name": "SAN"
+            }
+        },
+        {
+            "category": "file_storage",
+            "name": "core-ipfs",
+            "parameters": {
+                "mode": "folder"
+            }
+        }
+    ],
+    "blockchain": "conflux",
+    "language": "solidity",
+    "framework": "vanilla"
+}
